@@ -1,4 +1,6 @@
-
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .app{
     display: flex;
@@ -12,10 +14,19 @@
 }
 
 .timer{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    background: rgba(0,0,0,0.1);
-    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+
+    background:#e6f2ff;
+    border-radius: 8px 8px 0px 0px;
 }
+
+.btn{
+    text-align: center;
+    width: 160px;
+    padding: 15px;
+    background: #ffe6e6;
+    border-radius: 0px 0px 8px 8px;
+}
+
