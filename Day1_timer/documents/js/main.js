@@ -6,29 +6,33 @@ let timer_element = document.getElementById("time");
 
 let start_btn = document.getElementById("start");
 let stop_btn = document.getElementById("stop");
+let reset_btn = document.getElementById("reset");
 
 start_btn.addEventListener("click", function(){
     timer = setInterval(timeHandler, 1000);
+    reset_btn.disable = true;
 })
 
 stop_btn.addEventListener("click", function(){
    timer = clearInterval(timer);
+   reset_btn.disable = false;
 })
 
 
-let reset_btn = document.getElementById("reset");
+
 
 reset_btn.addEventListener("click", function(){
-    console.log("hey");
    timer = clearInterval(timer);
-   timer_element.innerHTML = "00:00:00";
+   sec = 0; 
+   min = 0;
+   hour = 0;
+   timer_element.innerHTML = "0" + hour + ":" + "0" + min + ":" + "0" + sec;
+   reset_btn.disable = true;
 })
 
 
 
 function timeHandler() {
-
-
   sec++;
 
   if (sec == 60) {
