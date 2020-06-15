@@ -118,7 +118,7 @@ body {
 }
 
 .game .options .option.selected {
-  border: 3px solid #000;
+  border: 1px solid #000;
   pointer-events: none;
 }
 
