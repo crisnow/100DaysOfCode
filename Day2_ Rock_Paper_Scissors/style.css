@@ -1,6 +1,146 @@
 body {
   margin: 0;
-  background-color: #f5dede;
+  background: #F3F3F3;
   color: #525252;
+}
+
+.game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.game h2, .game h3 {
+  margin: 10px 0px;
+}
+
+.game p {
+  text-align: center;
+}
+
+.game .battle {
+  width: 100%;
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game .battle .aiChoice {
+  background: #FFFFFF;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  line-height: 125px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.game .battle .aiChoice.rock {
+  background-image: url("/assets/rock.png");
+}
+
+.game .battle .aiChoice.paper {
+  background-image: url("assets/paper.png");
+}
+
+.game .battle .aiChoice.scissors {
+  background-image: url("assets/scissors.png");
+}
+
+.game .options {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.game .options .option {
+  background: #FFFFFF;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  line-height: 125px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.game .options .option:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.game .options .option.rock {
+  background-image: url("assets/rock.png");
+}
+
+.game .options .option.paper {
+  background-image: url("assets/paper.png");
+}
+
+.game .options .option.scissors {
+  background-image: url("assets/scissors.png");
+}
+
+.game .options .option.selected {
+  border: 3px solid #000;
+  pointer-events: none;
+}
+
+.game .options .option.selected.winner {
+  background-color: #24A484;
+}
+
+.game .options .option.selected.loser {
+  background-color: #AF1E2D;
+}
+
+.game .options .option.selected.draw {
+  background-color: #FFCE00;
+}
+
+.game .options .option.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
