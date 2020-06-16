@@ -1,4 +1,4 @@
-# 100DaysOfCode
+# #100DaysOfCode
 
 Day 1: I have coded a timer by JS
 
