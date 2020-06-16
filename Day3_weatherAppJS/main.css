@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'American Typewriter', sans-serif;
+    background-image: url('sunny_day.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6))
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 213, 213, 0.4);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid rgb(255, 101, 101);
+    
+    color: rgb(66, 63, 63);
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+header input:focus {
+
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+
+    flex: 0 0 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: #FFFF;
+    font-size: 16px;
+}
+
+.current .temp {
+    color: #FFFF;
+    font-size: 96px;
+    font-weight: 500;
+    margin: 30px 0px;
+    text-shadow: 2px 5px rgba(0,0,0,0.9);
+}
+
+.current .weather {
+    color: #FFFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 30px 5px;
+    margin-bottom: 15px;
+    text-shadow: 2px 5px rgba(0,0,0,0.4);
+}
+
+.current .hi-low{
+    color:  #FFFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 2px 5px rgba(0,0,0,0.4);
+}
