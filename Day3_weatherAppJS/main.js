@@ -17,7 +17,7 @@ function setQuery(evt) {
 
 function getResults(query){
     //https://${api.baseurl}weather?q=${query}&appid=${api.key}
-    fetch(`https://${api.baseurl}weather?q=${query}&appid=${api.key}`)
+    fetch(`https://${api.baseurl}weather?q=${query}&appid=${api.key}&units=metric`)
     .then(weather => {
         return weather.json();
     }).then(displayResults);
@@ -29,11 +29,11 @@ function displayResults(weather){
     city.innerText = `${weather.name}, ${weather.sys.country}`;
 
     let temp = document.querySelector('.current .temp');
-    temp.innerHTML = `${weather.main.temp}<span>°F</span>`;
+    temp.innerHTML = `${weather.main.temp}<span>°c</span>`;
 
     let weather_el = document.querySelector('.current .weather');
     weather_el.innerText = weather.weather[0].main;
 
     let hilow = document.querySelector('.hi-low');
-    hilow.innerText = `${weather.main.temp_min}°F / ${weather.main.temp_max}°F`;
+    hilow.innerText = `${weather.main.temp_min}°c / ${weather.main.temp_max}°c`;
 }
