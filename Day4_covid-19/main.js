@@ -37,7 +37,13 @@ function getResults(date_u, city_u){
 function displayResults(weather){
     console.log(weather);
     let confirmed = document.querySelector('.results .confirmed');
-    confirmed.innerText = `${weather.data[0].active}`;
+    confirmed.innerText = `new confirmed: ${weather.data[0].confirmed_diff}`;
+
+    let death= document.querySelector('.results .death');
+    death.innerText = `new death: ${weather.data[0].deaths_diff}`;
+
+    let recover= document.querySelector('.results .recover');
+    recover.innerText = `new recovery: ${weather.data[0].recovered_diff}`;
 
     // let temp = document.querySelector('.current .temp');
     // temp.innerHTML = `${weather.main.temp}<span>°c</span>`;
