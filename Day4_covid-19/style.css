@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Chalkboard', sans-serif;
     background-image: url('stay_home.jpg');
     background-size: cover;
     background-position: top center;
@@ -10,12 +10,14 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin:  5vh 0vh 0vw 10.7vw;
     background-image: linear-gradient(to bottom, rgba(202, 118, 118, 0.3), rgba(0,0,0,0.6))
 }
 
 h1{
     font-size: 50;
     color:rgb(241, 241, 241);
+    text-shadow: 2px 5px rgba(0,0,0,0.4);
 }
 
 .covid{
@@ -42,3 +44,29 @@ input {
 input:focus {
     background-color: rgba(255, 255, 255, 0.6);
 }
+
+.results .confirmed {
+    color: #FFFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 15px 0px;
+    text-shadow: 2px 5px rgba(0,0,0,0.9);
+}
+
+.results .death {
+    color: #FFFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 15px 0px;
+    margin-bottom: 15px;
+    text-shadow: 2px 5px rgba(0,0,0,0.4);
+}
+
+.results .recover{
+    color:  #FFFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 15px 0px;
+    text-shadow: 2px 5px rgba(0,0,0,0.4);
+}
+
