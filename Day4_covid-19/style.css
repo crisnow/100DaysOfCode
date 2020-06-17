@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'American Typewriter', sans-serif;
+    background-image: url('stay_home.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(202, 118, 118, 0.3), rgba(0,0,0,0.6))
+}
+
+h1{
+    font-size: 50;
+    color:rgb(241, 241, 241);
+}
+
+.covid{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(14, 13, 13, 0.4);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 1px solid rgb(255, 101, 101);
+    
+    color: rgb(66, 63, 63);
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+}
