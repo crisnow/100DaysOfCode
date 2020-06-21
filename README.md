@@ -1,7 +1,7 @@
 # #100DaysOfCode
 
 
-Day 7：A food list app (what you want to buy?)
+Day 7：A food list app (what do you want to eat?)
 
 Day 6：Build a to-do-list app 【almost done】
 
