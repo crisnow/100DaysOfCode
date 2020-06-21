@@ -1,6 +1,9 @@
 # #100DaysOfCode
 
-Day 6：Build a to-do-list app
+
+Day 6：a shopping list app (what you want to buy?)
+
+Day 6：Build a to-do-list app 【almost done】
 
 Day 5：Build a to-do-list app【half-done】
 
