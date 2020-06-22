@@ -1,7 +1,8 @@
 # #100DaysOfCode
 
+Day 9：react-app
 
-Day 7：A food list app (what do you want to eat?)
+Day 7 and 8：A food list app (what do you want to eat?)
 
 Day 6：Build a to-do-list app 【almost done】
 
