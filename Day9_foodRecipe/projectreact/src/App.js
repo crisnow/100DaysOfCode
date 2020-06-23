@@ -1,20 +1,13 @@
 import React from 'react';
+import Tweet from "./tweet";
 
 function App(){
-
-  let counter = 0;
-  const sayHello = () =>{
-    counter++;
-  }
-
- 
 
   return(
     <div>
       <h1>Hello React</h1>
-      <button onClick = {sayHello()}>
-        {counter}
-      </button>
+      <Tweet/>
+
     </div>
 
 
