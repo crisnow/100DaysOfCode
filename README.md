@@ -2,7 +2,7 @@
 
 Day 9：react-app: food recepie
 
-Day 7 and 8：A food list app (what do you want to eat?)
+Day 7 and 8：A food list app (to be done)
 
 Day 6：Build a to-do-list app 【almost done】
 
