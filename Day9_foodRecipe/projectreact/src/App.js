@@ -1,17 +1,9 @@
 import React from 'react';
-import Tweet from "./tweet";
+import "./App.css";
 
-function App(){
-
+const App = () =>{
   return(
-    <div>
-      <h1>Hello React</h1>
-      <Tweet/>
-
-    </div>
-
-
+  <div>hello Kristi</div>
   );
 }
-
 export default App;
