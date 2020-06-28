@@ -1,6 +1,8 @@
 # #100DaysOfCode
 
-Day 12：Build a Product Landing Page from Responsive Website Certificate 
+Day 12：Build a Portfolio Page from Responsive Website Certificate 【will upload soon】
+
+Day 12：Build a Product Landing Page from Responsive Website Certificate 【will upload soon】
 
 Day 11：Build a Survey Form from Responsive Website Certificate 【will upload soon】
 
