@@ -7,8 +7,9 @@ Day 13：Build a Portfolio Page from Responsive Website Certificate 【will uplo
 Day 12：Build a Product Landing Page from Responsive Website Certificate 【will upload soon】
 
 Day 11：Build a Survey Form from Responsive Website Certificate 【will upload soon】
-
 Day 10：a tribute page from Responsive Website Certificate 【will upload soon】
+
+Day 10：learn react - execrise
 
 Day 9：react-app: food recepie
 
